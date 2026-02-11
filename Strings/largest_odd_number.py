@@ -1,6 +1,6 @@
 """
 Problem: Largest Odd Number in String
-Link: https://leetcode.com/problems/largest-odd-number-in-string/
+Link: https://leetcode.com/problems/largest-odd-number-in-string/submissions/1914778144/
 Difficulty: Easy
 Topic: Math, String
 Date: 10-02-2026

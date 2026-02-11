@@ -1,6 +1,6 @@
 """
 Problem: Remove Outermost Parentheses
-Link: https://leetcode.com/problems/remove-outermost-parentheses/
+Link: https://leetcode.com/problems/remove-outermost-parentheses/submissions/1914748736/
 Difficulty: Easy
 Topic: String, Stack
 Date: 10-02-2026

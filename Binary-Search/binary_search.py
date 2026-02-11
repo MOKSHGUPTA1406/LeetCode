@@ -1,6 +1,6 @@
 """
 Problem: Binary Search
-Link: https://leetcode.com/problems/binary-search/
+Link: https://leetcode.com/problems/binary-search/submissions/1913835191/
 Difficulty: Easy
 Topic: Array, Binary Search
 Date: 09-02-2026

@@ -1,6 +1,6 @@
 """
 Problem: Search Insert Position
-Link: https://leetcode.com/problems/search-insert-position/
+Link: https://leetcode.com/problems/search-insert-position/submissions/1913856423/
 Difficulty: Easy
 Topic: Array, Binary Search
 Date: 09-02-2026
