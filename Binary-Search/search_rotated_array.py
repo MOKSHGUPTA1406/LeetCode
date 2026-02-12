@@ -1,6 +1,6 @@
 """
 Problem: Search in Rotated Sorted Array
-Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1913900745/
+Link: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1916605516/
 Difficulty: Medium
 Topic: Array, Binary Search
 Date: 12-02-2026
