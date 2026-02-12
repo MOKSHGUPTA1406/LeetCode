@@ -12,8 +12,6 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 """
 
-from typing import List
-
 
 class Solution:
     def largestOddNumber(self, num: str) -> str:
