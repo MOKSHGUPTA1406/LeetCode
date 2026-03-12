@@ -12,7 +12,6 @@ Time Complexity: O(n^2) where n is the length of the input string, since we iter
 Space Complexity: O(n^2) where n is the length of the input string, since we maintain a 2D boolean array `dp` of size n x n.
 """
 
-from typing import List
 
 class Solution:
     def palindrome(self, s:str)->bool:
