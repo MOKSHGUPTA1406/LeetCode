@@ -1,0 +1,33 @@
+"""
+Problem: Summary Ranges
+Link: https://leetcode.com/problems/summary-ranges/submissions/1978389223/
+Difficulty: Easy
+Topic: Arrays
+Date: 14-04-2026
+
+Approach: We can iterate through the input array and identify consecutive sequences of numbers. For each sequence, we can determine the start and end of the range. If the start and end are the same, we add just the number to the result list; otherwise, we add a string in the format "start->end". We continue this process until we have processed all elements in the array.
+
+Time Complexity: O(n), where n is the length of the input array, since we need to iterate through the array once to identify the ranges.
+Space Complexity: O(1) for the extra space used to store the result, as we are only storing the output and not using any additional data structures that grow with the input size.
+"""
+
+from typing import List
+
+class Solution:
+    def summaryRanges(self, nums: List[int]) -> List[str]:
+        if not nums:
+            return []
+        result = []
+        i = 0
+        while i < len(nums):
+            start = nums[i]
+            j = i
+            while j + 1 < len(nums) and nums[j + 1] == nums[j] + 1:
+                j += 1
+            if nums[j] == start:
+                result.append(str(start))
+            else:
+                result.append(f"{start}->{nums[j]}")
+            i = j + 1
+        return result
+     
